@@ -3,7 +3,7 @@ function compute() // computes the potential return on a specified principal giv
     var principal = parseInt(document.getElementById("principal").value); // gets principal value from input
     if (principal <= 0){ // produces an alert when a non-positive number is entered as the principal amount.
         alert("Enter a positive number");
-        principal.focus();// returns focus back to the principal input node
+        document.getElementById("principal").focus();// returns focus back to the principal input node
         return false;
     }
     var rate = parseInt(document.getElementById("rate").value); // gets rate from rate input node
