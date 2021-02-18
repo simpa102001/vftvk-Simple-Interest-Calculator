@@ -1,4 +1,4 @@
 body {background-color:black; font:arial; color:white;}
 h1{color:grey; font: verdana;}
 .maindiv{background-color:white; color:black; width:300px; padding:20px;}
-div{border-radius:25px;align:center;}
+div{border-radius:25px;text-align:center;}

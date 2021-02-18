@@ -11,7 +11,7 @@ function compute() // computes the potential return on a specified principal giv
     var interest = parseFloat(principal * years * (rate / 100)).toFixed(2);// interest gained on principal
     var d = (new Date().getFullYear()) + years; // specifies the year when investment matures.
     var newCapital = interest; // new principal amount after interest has been added.
-    document.getElementById("result").innerHTML = "if you deposit "+ principal + ",<br>at an interest rate of " + rate + ".<br>You will receive an amount of " + newCapital +",<br>in the year "+ d + ".";
+    document.getElementById("result").innerHTML = "If you deposit $"+ principal + ",<br>at an interest rate of " + rate + "%.<br>You will receive an amount of $" + newCapital +",<br>in the year "+ d + ".";
     return true; // displays the comment on the screen after calculating interest
 }
 function rangeDisplay() // displays corresponding rate values as the slider is being moved around
